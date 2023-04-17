@@ -1,6 +1,8 @@
 <title>Calculator</title>
 <body>
-	
+<h1>
+	Calculator
+</h1>	
 </body>
 <script>
 // @ts-nocheck
@@ -69,8 +71,14 @@
 </script>
 
 <style>
+	h1{
+		color: rgb(224, 67, 67);
+		padding-top: 15%;
+		padding-left: 43.5%;
+		font-family: "OCR A Std";
+	}
 	body{
-		background-color: RGB(68, 184, 172);
+		background-image: url("https://c4.wallpaperflare.com/wallpaper/261/421/81/technology-electronic-engineering-electronics-green-wallpaper-preview.jpg");
 	}
 	.calculator {
 		position:absolute;
@@ -79,13 +87,13 @@
 		transform:translate(-50%,-50%);
 		width:300px;
 		border:1px solid #975959;
-		box-shadow:2px 2px 2px RGB(152, 180, 212);
+		box-shadow:2px 2px 2px rgb(4, 68, 4);
 		padding:10px;
-        background-color: RGB(0, 155, 119);
-        height: 180px;
+        background-color:#8d2e21;
+        height: 190px;
 	}
 	.calculator input {
-		width:85.5%;
+		width:85.3%;
 		padding:20px;
 		outline:none;
 		text-align:right;
